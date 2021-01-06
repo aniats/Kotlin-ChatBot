@@ -7,6 +7,9 @@ files:
         // put your code here
     }
   learner_created: false
+- name: src/tmp.kt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/11228#comment
 status: Solved
 feedback:

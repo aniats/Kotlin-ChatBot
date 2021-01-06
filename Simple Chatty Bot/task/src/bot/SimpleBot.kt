@@ -10,7 +10,7 @@ fun main() {
     remindName()
     guessAge()
     count()
-    // ...
+    test()
     end()
 }
 
@@ -46,7 +46,17 @@ fun count() {
 
 fun test() {
     println("Let's test your programming knowledge.")
-    // write your code here
+    println("Why do we use methods?\n" +
+            "1. To repeat a statement multiple times.\n" +
+            "2. To decompose a program into several small subroutines.\n" +
+            "3. To determine the execution time of a program.\n" +
+            "4. To interrupt the execution of a program.")
+    var ans = scanner.nextInt()
+    while (ans != 2) {
+        println("Please, try again.")
+        ans = scanner.nextInt()
+    }
+    println("Congratulations, have a nice day!")
 }
 
 fun end() {

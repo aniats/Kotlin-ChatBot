@@ -1,7 +1,10 @@
+import java.util.Scanner
+
 fun main(args: Array<String>) {
-    val a = readLine()!!.toInt()
-    val b = readLine()!!.toInt()
-    val c = readLine()!!.toInt()
+    val scanner = Scanner(System.`in`)
+    val a = scanner.nextInt()
+    val b = scanner.nextInt()
+    val c = scanner.nextInt()
 
     var bigger: Boolean = false
     var smaller: Boolean = false
