@@ -1,0 +1,24 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun main(args: Array<String>) {
+        // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4534#comment
+status: Failed
+feedback:
+  message: "Failed test #1 of 9. Runtime error\n\nThis is a sample test from the problem\
+    \ statement!\n\nTest input:\n3 3 3\n\nCorrect output:\ntrue\n\nYour code output:\n\
+    \n\nError:\nException in thread \"main\" java.lang.NumberFormatException: For\
+    \ input string: \"3 3 3\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)\n\
+    \tat java.base/java.lang.Integer.parseInt(Integer.java:652)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:770)\n\
+    \tat MainKt.main(main.kt:2)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native\
+    \ Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\
+    \tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\
+    \tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.jetbrains.kotlin.runner.AbstractRunner.run(runners.kt:64)\n\
+    \tat org.jetbrains.kotlin.runner.Main.run(Main.kt:149)\n\tat org.jetbrains.kotlin.runner.Main.main(Main.kt:159)\n"
+  time: Sun, 03 Jan 2021 19:07:02 UTC
+record: -1
